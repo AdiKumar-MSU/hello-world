@@ -3,6 +3,123 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-img {
-    width: 100%;
+.mac {
+    width: 800px;
+    height: 227px;
+    object-fit: cover; object-position: 100% 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background: #D9D9D9; 
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-top: 2px;
+    padding-right: 17px;
+    flex-shrink: 0;
+}
+
+h1 {
+    color: #424242;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 420px;
+    height: 47px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 384px;
+    height: 373px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E9EAEC;
+    display: grid;
+    justify-content: center;
+}
+
+#history {
+    width: 324px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#history-text {
+    width: 320px;
+    height: 263px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    margin: auto;
+    
+}
+
+#example {
+    width: 319px;
+    height: 33px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#example-text {
+    width: 320px;
+    height: 263px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    margin: auto;
+}
+
+
+.code-card {
+    position: relative;
+    width: 384px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 20px 20px;
+    background: #424242;
+    padding-bottom: 50%;
+}
+
+#code-text {
+    color: #FFF;
+    font-family: Courier;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
