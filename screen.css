@@ -49,9 +49,44 @@
     background: #fff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
-    
+    margin: 0 auto;
   }
 
-  .mac {
+  main {
+    margin: 0 auto;
+    width: 800px;
+  }
+
+  .masthead {
+    background-image: url("images/mac.jpg");
+    height: 250px;
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .details {
+    display: flex;
+    gap: 25px;
+  }
+
+  .details section{
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+  }
+
+  h2 {
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    line-height: 1.4em;
+  }
+
+  img {
     width: 100%;
 }
