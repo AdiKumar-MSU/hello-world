@@ -111,8 +111,11 @@
   }
 
   h1 {
+    background-image: url("images/Logo.png");
+    background-repeat: no-repeat;
     font-size: 3em;
+    background-size: 40px;
     padding-left: 55px;
+    background-position: center left;
     margin: 100px 0 25px 0;
-    background: no-repeat center left 40px / url("images/Logo.png");
   }
